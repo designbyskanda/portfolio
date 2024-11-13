@@ -40,6 +40,27 @@ section {
     background-color: #ffffff;
 }
 
+/* Add spacing below header section */
+#projects {
+    margin-top: 40px; /* Adjust this to add more or less spacing */
+}
+
+/* Layout for Case Study Boxes */
+.case-studies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the two boxes */
+    justify-content: space-between; /* Optional: To ensure they are spread out */
+}
+
+.case-study-box {
+    flex: 1 1 45%; /* Each box takes up 45% of the width, with flexibility */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
 section h2 {
     font-family: 'Manrope', sans-serif;
     font-size: 1.8rem;
@@ -104,5 +125,10 @@ footer a:hover {
 
     section p {
         font-size: 0.9rem;
+    }
+
+    /* Stack case study boxes vertically on smaller screens */
+    .case-studies {
+        flex-direction: column;
     }
 }
