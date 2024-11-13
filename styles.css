@@ -6,8 +6,8 @@
 
 /* Body Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
 }
@@ -16,15 +16,18 @@ body {
 header {
     text-align: center;
     padding: 40px 0;
-    background-color: #e8eaf6;
+    background-color: #ffffff;
 }
 
 header h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
     font-size: 2.5rem;
     color: #222;
 }
 
 header p {
+    font-family: 'Inconsolata', monospace;
     font-size: 1.1rem;
     color: #555;
 }
@@ -35,22 +38,26 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 section h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #222;
 }
 
 section p {
+    font-family: 'Inconsolata', monospace;
     font-size: 1rem;
     color: #555;
     margin-bottom: 20px;
 }
 
 section a {
+    font-family: 'Inconsolata', monospace;
     font-size: 1rem;
     color: #007bff;
     text-decoration: none;
@@ -63,7 +70,7 @@ section a:hover {
 /* Footer Styles */
 footer {
     padding: 20px;
-    background-color: #333;
+    background-color: #ffffff;
     color: #f0f0f0;
     text-align: center;
     font-size: 14px;
